@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import { Home } from './components/Home'
+import { ErrorPage } from './components/ErrorPage'
 
 import './index.css'
 
@@ -23,9 +24,7 @@ const App = () => {
                 <Route exact path='/projets'>
                     PROJETS
                 </Route>
-                <Route exact path='*'>
-                    ERREUR
-                </Route>
+                <Route exact path='*' component={ErrorPage} />
             </Switch>
         </Router>
     )

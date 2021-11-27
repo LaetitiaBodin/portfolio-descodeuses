@@ -1,0 +1,31 @@
+.error_page {
+    background-color: $HoneyFlower;
+    color: $Selago;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-weight: bold;
+}
+
+.error_link{
+    background-color: $ElectricViolet;
+    color: $Selago;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0.5em auto;
+    padding: 10px;
+    font-size: 1em;
+    display: block;
+    transition: background-color 0.5s linear;
+    &:hover, &:active {
+        background-color: $Selago;
+        color: $HoneyFlower;
+        cursor: pointer;
+    }
+}
