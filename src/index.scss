@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/poppins-regular.eot');
+    src: url('font/poppins-regular.eot?#iefix') format('embedded-opentype'),
+         url('font/poppins-regular.woff2') format('woff2'),
+         url('font/poppins-regular.woff') format('woff'),
+         url('font/poppins-regular.ttf') format('truetype'),
+         url('font/poppins-regular.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$HoneyFlower : #461873;
+$PersianIndigo : #58148e;
+$ElectricViolet : #8c07dd;
+$PurpleHeart : #9f21e3;
+$Heliotrope : #cb5df1;
+$Selago: #f7ebfd;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
