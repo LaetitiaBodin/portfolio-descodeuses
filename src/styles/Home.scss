@@ -1,0 +1,58 @@
+.home {
+    background-color: $HoneyFlower;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-weight: bold;
+    h1 {
+        color: $Selago;
+        font-size: 2em;
+    }
+}
+
+.home_card_row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 576px) {
+    .home_card_block {
+        width: 90%;
+    }
+}
+
+@media all and (min-width: 576.01px) and (max-width: 1024px) {
+    .home_card_block {
+        width: 40%;
+    }
+}
+
+@media all and (min-width: 1024.01px) {
+    .home_card_block {
+        width: 20%;
+    }
+}
+
+.home_card_block {
+    background-color: $ElectricViolet;
+    color: $Selago;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0.5em auto;
+    padding: 1em 0em;
+    font-size: 1.5em;
+    display: block;
+    transition: background-color 0.5s linear;
+    &:hover, &:active {
+        background-color: $Selago;
+        color: $HoneyFlower;
+        cursor: pointer;
+    }
+}
