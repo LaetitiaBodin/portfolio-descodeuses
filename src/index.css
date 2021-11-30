@@ -131,3 +131,140 @@ body {
   color: #461873;
   cursor: pointer;
 }
+
+.header {
+  background-color: #461873;
+  color: #f7ebfd;
+  text-align: center;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title {
+  background-color: #461873;
+  color: #f7ebfd;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+  -webkit-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+.title:hover, .title:active {
+  background-color: #f7ebfd;
+  color: #461873;
+  cursor: pointer;
+}
+
+nav {
+  background-color: #461873;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f7ebfd;
+  -webkit-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+nav a:hover, nav a:active {
+  background-color: #f7ebfd;
+  color: #461873;
+}
+
+nav .current {
+  background-color: #f7ebfd;
+  color: #461873;
+}
+
+.header_l {
+  padding: 10px 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header_s {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav_s {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: calc(100% - 20px);
+}
+
+.nav_s_open {
+  position: relative;
+  left: 0%;
+  -webkit-transition: left 0.5s linear;
+  transition: left 0.5s linear;
+}
+
+.nav_s_close {
+  position: relative;
+  left: calc(-100% + 20px);
+  -webkit-transition: left 0.5s linear;
+  transition: left 0.5s linear;
+}
+
+.nav_s_tip {
+  width: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #461873;
+  fill: #f7ebfd;
+  -webkit-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+.nav_s_tip:hover {
+  background-color: #f7ebfd;
+  fill: #461873;
+  cursor: pointer;
+}

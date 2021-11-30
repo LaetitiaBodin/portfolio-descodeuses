@@ -5,10 +5,10 @@ export const Home = () => {
         <div className='home'>
             <h1>PORTFOLIO @DESCODEUSES</h1>
             <div className='home_card_row'>
-                <LinkCard {...{page: 'html-css', name: 'HTML / CSS'}}/>
-                <LinkCard {...{page: 'javascript', name: 'JAVASCRIPT'}}/>
-                <LinkCard {...{page: 'php', name: 'PHP'}}/>
-                <LinkCard {...{page: 'projets', name: 'PROJETS'}}/>
+                    <LinkCard {...{page: 'html-css', name: 'HTML / CSS'}}/>
+                    <LinkCard {...{page: 'javascript', name: 'JAVASCRIPT'}}/>
+                    <LinkCard {...{page: 'php', name: 'PHP'}}/>
+                    <LinkCard {...{page: 'projets', name: 'PROJETS'}}/>
             </div>
         </div>
     )
