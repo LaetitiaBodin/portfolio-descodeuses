@@ -1,0 +1,36 @@
+@media all and (min-width: 1200px) {
+  body {
+    overflow: scroll;
+  }
+}
+
+@media all and (max-width: 1199.98px) {
+  p {
+    padding: 0vh 5vw;
+  }
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+main h1 {
+  font-family: "Franklin Gothic Heavy";
+  padding: 2vh 0vw;
+  background-color: #00B3FA;
+  color: #3C3C3C;
+}
+
+main h2 {
+  font-family: "Averta", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #3C3C3C;
+}
+
+main p {
+  font-family: "Averta", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #3C3C3C;
+}

@@ -1,0 +1,17 @@
+.titre {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: indianred;
+}
+
+.corps {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  color: darkcyan;
+}
+
+li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  color: seagreen;
+}

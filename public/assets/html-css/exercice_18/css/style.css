@@ -1,0 +1,44 @@
+@media screen and (min-width: 1200px) {
+    .div_item {
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1198.98px) {
+    .div_item {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 767.98px) and (orientation: landscape) {
+    .div_item {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767.98px) and (orientation: portrait) {
+    .div_item {
+        width: 80%;
+    }
+}
+
+#main_div {
+    margin: 1vh auto;
+    border: 2px solid blue;
+    width: 90%;
+    padding: 1vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.div_item {
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+
+p {
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+}

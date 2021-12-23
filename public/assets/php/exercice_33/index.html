@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 33</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Exercice 33</h1>
+    <form action="confirm.php" method="post">
+        <div>
+            <p>CIVILITE</p>
+            <div>
+                <input type="radio" id="mrs" name="gender" value="MADAME" checked>
+                <label for="mrs">MADAME</label>
+            </div>
+            <div>
+                <input type="radio" id="mr" name="gender" value="MONSIEUR">
+                <label for="mr">MONSIEUR</label>
+            </div>
+            <div>
+                <input type="radio" id="other" name="gender" value="AUTRE">
+                <label for="other">AUTRE</label>
+            </div>
+        </div>
+        <label for="name">PRENOM</label>
+        <input type="text" name="name" id="name" required>
+        <label for="surname">NOM</label>
+        <input type="text" name="surname" id="surname" required>
+        <button type="submit" value="submit">ENVOYER</button>
+    </form> 
+</body>
+</html>

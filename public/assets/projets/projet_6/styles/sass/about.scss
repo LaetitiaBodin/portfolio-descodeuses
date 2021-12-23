@@ -1,0 +1,38 @@
+@import '_variables';
+
+@media all and (min-width: 1200px) {
+    #main_logo {
+        width: 20%;
+    }
+    p {
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 720px) and (max-width: 1199.98px) {
+    #main_logo {
+        width: 30%;
+    }
+    p {
+        width: 60%;
+    }
+}
+
+@media all and (min-width: 720px) {
+    p {
+        padding: 1vh 0vw;
+    }
+}
+
+@media all and (max-width: 719.98px) {
+    #main_logo {
+        width: 40%;
+    }
+    p {
+        padding: 1vh 1vw;
+    }
+}
+
+p {
+    margin: 0 auto;
+}

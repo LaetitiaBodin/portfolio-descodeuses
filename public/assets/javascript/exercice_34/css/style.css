@@ -1,0 +1,22 @@
+* {
+    color: #000;
+    text-align: center;
+}
+
+ul, ol {
+    width: 10rem;
+    margin : 1rem auto;
+}
+
+li {
+    text-align: left;
+}
+
+button {
+    display: inline-block;
+    margin: 1rem auto;
+}
+
+button:disabled {
+    opacity: 0.5;
+}

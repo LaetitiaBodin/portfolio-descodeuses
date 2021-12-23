@@ -1,0 +1,53 @@
+@import '_variables';
+
+@media all and (min-width: 1200px) {
+    main img {
+        width: 40%;
+    }
+    input, textarea {
+        width: 40%;
+    }
+}
+@media all and (max-width: 1198.98px){
+    main img {
+        width: 70%;
+    }
+    input, textarea {
+        width: 70%;
+    }
+}
+
+main {
+    color: $shadeBlackMain;
+    ul {
+        list-style: none;
+        padding-left: 0%;
+        font-family: $fontLight;
+    }
+    li + li {
+        margin-top: 1vh;
+    }
+}
+
+span {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+input, textarea {
+    display: block;
+    margin: 2vh auto;
+    background-color: $shadeBlueMainTransparent;
+    font-family: $fontLight;
+    &:focus {
+        outline: 2px inset $shadeBlackMain;
+    }
+}
+
+button {
+    @include buttonDefault;
+        outline: none;
+    &:active, &:focus {
+        @include buttonPressed;
+    }
+}

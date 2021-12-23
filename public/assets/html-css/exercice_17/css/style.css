@@ -1,0 +1,56 @@
+@media all and (min-width: 980px) {
+    #main_div {
+        flex-direction: row;
+    }
+
+    #green_blocks, #yellow_blocks {
+        width: 50%;
+    }
+
+
+    #green_blocks {
+        justify-content: flex-end;
+    }
+}
+
+@media all and (max-width: 979.98px) {
+    #main_div {
+        flex-direction: column;
+    }
+
+    #green_blocks, #yellow_blocks {
+        width: 100%;
+    }
+
+    #green_blocks {
+        justify-content: space-between;
+        background-color: grey;
+    }
+}
+
+#main_div {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#green_blocks, #yellow_blocks {
+    height: 30vh;
+    display: flex;
+}
+
+
+.block {
+    width: 30%;
+    outline: 1px solid black;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+    flex-basis: 33.33%;
+}

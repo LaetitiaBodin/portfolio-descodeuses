@@ -1,0 +1,29 @@
+@mixin big {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: indianred;
+}
+
+@mixin medium {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: darkcyan;
+}
+
+@mixin small {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: seagreen;
+}
+
+.titre {
+    @include big;
+}
+
+.corps {
+    @include medium;
+}
+
+li {
+    @include small;
+}

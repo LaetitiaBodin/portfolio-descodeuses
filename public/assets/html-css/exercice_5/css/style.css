@@ -1,0 +1,92 @@
+body {
+    width: 80%;
+    margin: 1% auto;
+}
+
+#divWrap {
+    height: 30%;
+    width: 80%;
+    position: absolute;
+    margin: 0 auto;
+}
+
+/* All the colored divs will be defined according to an absolute position.
+The dimensions will depend on the #divWrap's dimensions.
+The "top" and "left" position will depend on the #divWrap's "top" and "left" borders.*/
+
+.divCell {
+    position: absolute;
+    margin: 0%;
+}
+
+#div_1 {
+    background-color:mediumseagreen;
+    height: 10%;
+    width: 80%;
+    top: 0%;
+    left: 0%;
+}
+
+#div_2 {
+    background-color:mediumslateblue;
+    height: 10%;
+    width: 20%;
+    top: 0%;
+    left: 80%;
+}
+
+#div_3 {
+    height: 40%;
+    width: 32%;
+    background-color:red;
+    top: 10%;
+    left: 0%;
+}
+
+#div_4 {
+    background-color:darkorange;
+    height: 20%;
+    width: 34%;
+    top: 10%;
+    left: 32%;
+}
+
+#div_5 {
+    height: 20%;
+    width: 34%;
+    background-color:lightsteelblue;
+    top: 10%;
+    left: 66%;
+}
+
+#div_6 {
+    height: 20%;
+    width: 23%;
+    background-color:orange;
+    top: 30%;
+    left: 32%;
+}
+
+#div_7 {
+    background-color:lightseagreen;
+    height: 20%;
+    width: 22%;
+    top: 30%;
+    left: 55%;
+}
+
+#div_8 {
+    height: 20%;
+    width: 23%;
+    background-color:orangered;
+    top: 30%;
+    left: 77%;
+}
+
+#div_9 {
+    height: 50%;
+    width: 100%;
+    background-color:darkslategray;
+    top: 50%;
+    left: 0%;
+}

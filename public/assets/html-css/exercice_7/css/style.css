@@ -1,0 +1,12 @@
+label {
+    display: block;
+    margin: 2% auto;
+    text-align: center;
+}
+
+select {
+    display: block;
+    min-width: 50%;
+    overflow-y: hidden;
+    margin: 2% auto;
+  }

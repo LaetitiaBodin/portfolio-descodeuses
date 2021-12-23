@@ -1,0 +1,211 @@
+@import 'palette';
+@import 'fonts';
+@import 'animations';
+@import 'mixins';
+
+/* -- PAGE -- */
+
+/* -- Default screen if the device used is too small -- */
+
+#small_screen {
+	@include displayFlex (column, center, '');
+	@include position (absolute, top, 0, 0);
+	@include size (100vw, 100vh);
+	@include textStyle ('Commodore Angled Regular', 2rem , center);
+	@include textColors ($blue_light, $blue_dark);
+}
+
+/* -- HOME PAGE -- */
+
+#home {
+	@include displayFlex (column, space-around, '');
+	@include position (absolute, top, 0, 0);
+	@include size (100vw, 100vh);
+	@include bgCover;
+	background-image: url('../../img/home.jpg');
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+	h1 {
+		@include textStyle ('Fluo Gums Regular', 2.5rem , center);
+		@include textColors ($blue_medium, '');
+		text-transform: uppercase;
+		margin-top: 200px;
+	}
+}
+
+#rules {
+	@include textStyle('Commodore Angled Regular', 1.3rem , center);
+	@include textColors ($blue_light, '');
+	@include animation (fadeInSlow, 3s, 1);
+	max-width: 90%;
+	margin: 200px auto 40px auto;
+}
+
+#btn-start{
+	@include textStyle ('Twenty-Seven Regular', 1.75rem , center);
+	@include textColors ($blue_light, $blue-violet_dark);
+	@include borderStyle (3px, solid, $blue_light, 200px);
+	@include animation (fadeInSlow, 3s, 1);
+  	transition: 1.75s;
+	display: block;
+	margin: 0 auto 10rem auto;
+	padding: 3vh;
+	cursor: pointer;
+	  
+	&:hover {
+		@include textColors ($blue-violet_medium, '');
+		@include textShadow ($pink);
+		@include boxShadow ($blue_light, $pink);
+	}
+}
+
+/* -- PLAYGROUND -- */
+
+.hidden {
+	display: none!important;
+}
+
+.fadeOut {
+	@include animation (fadeOutSlow, 3s, 0!important);
+}
+
+.fadeIn {
+	@include animation (fadeInSlow, 3s, 1);
+}
+
+#playground {
+	@include displayFlex (row, '', '');
+	@include position (absolute, top, 0, 0);
+	@include size (100vw, 100vh);
+	@include bgCover;
+	background-image: url('../../img/playground.jpg');
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#character_0-block, #character_1-block {
+	width: 50%;
+}
+
+#character_0-face, #character_1-face {
+	@include textStyle ('Ghost Smileys Regular', 300px , center);
+	@include textColors ($blue_medium, '');
+	position: relative;
+	top: -250px;
+	margin-bottom: -200px;
+}
+
+.intro {
+	@include textStyle ('Twenty-Seven Regular', 20px , center);
+	@include textColors ($orange, '');
+	@include textContour ($black_dark);
+	margin-bottom: 2rem;
+}
+
+.btn-good_qual, .btn-bad_qual {
+	@include displayFlex (row, center, center, wrap);
+	width: 80%;
+	margin: 0 auto;
+}
+
+.btn-choice {
+	@include textStyle ('Commodore Angled Regular', 12px , center);
+	@include textColors ($blue_light, $black_medium);
+	@include borderStyle (2px, solid, $blue_light, 80px);
+	position: relative;
+	padding: 10px;
+	cursor: pointer;
+	margin: 4px 2px;
+	transition: 1.5s;
+
+	&:hover {
+		@include textColors ($black_medium, '');
+		@include textShadow ($blue_light);
+		@include boxShadow ($blue_light, $blue_light);
+	}
+
+	&:active {
+		outline: none;
+	}
+}
+
+.btn-fadeout {
+	@include animation (fadeOutSlow, 0.5s, 0);
+}
+
+#characters-message {
+	@include displayFlex (row, center, center);
+	@include position (absolute, top, 20px, calc(50% - 100px));
+	@include size (200px, 200px);
+	@include bgCover;
+	@include animation (fadeOutSlow, 2s, 0);
+
+	p {
+		@include textStyle ('Twenty-Seven Regular', 22px , center);
+		@include textColors ($white, '');
+		@include animation (fadeOutSlow, 2s, 0);
+		padding: 5vw 0;		
+	}
+}
+
+#btn-match {
+	@include position (absolute, top, 300px, calc(50% - 50px));
+	@include textStyle ('Twenty-Seven Regular', 30px , center);
+	@include textColors ($blue_light, $blue-violet_dark);
+	@include borderStyle (3px, solid, $blue_light, 200px);
+	@include animation (fadeInFast, 2s, 1);
+	transition: 1.75s;
+	outline: none;
+	width: 100px;
+	padding: 26px 0px 20px 0px;
+	cursor: pointer;
+  
+	&:hover {
+		@include textColors ($blue-violet_medium, '');
+		@include textShadow ($pink);
+		@include boxShadow ($blue_light, $pink);
+	}
+
+	&:active {
+		outline: none;
+	}
+
+	&:disabled {
+		cursor: default;
+	}
+}
+
+#match-result {
+	@include displayFlex (row, center, center);
+	@include position (absolute, bottom, 100px, calc(50% - 100px));
+	@include size (200px, 200px);
+	@include bgCover;
+	@include textStyle ('Twenty-Seven Regular', 20px , center);
+	@include textColors ($white, '');
+	@include animation (fadeOutFast, 5s, 0);
+}
+
+#btn-reload {
+	@include position (absolute, top, 50%, calc(50% - 100px));
+	@include textStyle ('Twenty-Seven Regular', 30px , center);
+	@include textColors ($blue_light, $blue-violet_dark);
+	@include borderStyle (3px, solid, $blue_light, 200px);
+	@include animation (fadeInSlow, 2s, 1);
+	transition: 1.75s;
+	width: 200px;
+	padding: 26px 0px 20px 0px;
+	cursor: pointer;
+
+	&:hover {
+		@include textColors ($blue-violet_medium, '');
+		@include textShadow ($pink);
+		@include boxShadow ($blue_light, $pink);
+	}
+
+	&:disabled {
+		cursor: default;
+	}
+}

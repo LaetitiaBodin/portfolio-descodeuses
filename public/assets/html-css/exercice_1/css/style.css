@@ -1,0 +1,15 @@
+body {
+    width: 60%;
+    margin: 2% auto;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}

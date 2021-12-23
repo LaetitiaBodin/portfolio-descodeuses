@@ -1,0 +1,10 @@
+p {
+    font-weight: normal;
+    color: black;
+
+    &:hover {
+        font-weight: bold;
+        color: green;
+        text-decoration: underline green;
+    }
+}

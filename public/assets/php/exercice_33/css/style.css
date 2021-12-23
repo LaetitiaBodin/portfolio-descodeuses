@@ -1,0 +1,16 @@
+* {
+    text-align: center;
+}
+
+label, input, button {
+    display: block;
+    margin: 20px auto;
+}
+
+form div {
+    display: inline-block;
+}
+
+form div + div {
+    margin-left: 20px;;
+}

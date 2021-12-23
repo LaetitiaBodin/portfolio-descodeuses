@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Réservation pour un séjour à Masaka." />
+    <title>Gîtes de Masaka &#127811; Réservation</title>
+    <link rel="icon" href="icones/logo_Masaka.jpg" />
+    <link rel="stylesheet" href="styles/mincss/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <!-- Menu commun à toutes les pages. -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-customgreen static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="icones/logo_Masaka.jpg" alt="logo"></a>
+                <button class="navbar-toggler mt-0" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto pt-5 pb-2">
+                        <li class="nav-item h5">
+                            <a class="nav-link" href="index.html">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item h5">
+                            <a class="nav-link" href="lodgings.html">NOS GITES</a>
+                        </li>
+                        <li class="nav-item h5">
+                            <a class="nav-link" href="activities.html">ACTIVITES</a>
+                        </li>
+                        <li class="nav-item h5 active">
+                            <a class="nav-link" href="booking.html">RESERVATION</a>
+                        </li>
+                        <li class="nav-item h5">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                        <li class="nav-item h5">
+                            <a class="nav-link" href="blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item h5">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <div>
+            <div class="row ">
+                <div class="col-12 my-4 my-md-5 p-0">
+                    <h1 class="py-3 py-md-4">RESERVATION</h1>
+                </div>
+                <div class="col-12 col-md-8 col-xl-6 mx-auto py-4 py-md-2 mb-4 mb-md-5 bg-customgreen">
+                    <form id="booking_details" class="d-flex flex-column">
+                        <label for="guests_adult">Nombre d'adultes&nbsp;:</label>
+                        <select id="guests_adult" class="my-2 my-md-4 mx-auto">
+                            <option value="one">1 personne</option>
+                            <option value="two" selected>2 personnes</option>
+                            <option value="three">3 personnes</option>
+                            <option value="four">4 personnes</option>
+                            <option value="five">5 personnes</option>
+                            <option value="six_and_more">6 personnes et plus</option>
+                        </select>
+                        <label for="guests_young">Nombre de jeunes (de 12 à 17 ans inclus)&nbsp;*&nbsp;:</label>
+                        <select id="guests_young" class="my-2 my-md-4 mx-auto">
+                            <option value="zero" selected>0 personne</option>
+                            <option value="one">1 personne</option>
+                            <option value="two">2 personnes</option>
+                            <option value="three">3 personnes</option>
+                            <option value="four">4 personnes</option>
+                            <option value="five">5 personnes</option>
+                            <option value="six_and_more">6 personnes et plus</option>
+                        </select>
+                        <label for="guests_children">Nombre d'enfants (de 0 à 11 ans inclus)&nbsp;*&nbsp;:</label>
+                        <select id="guests_children" class="my-2 my-md-4 mx-auto">
+                            <option value="zero" selected>0 personne</option>
+                            <option value="one">1 personne</option>
+                            <option value="two">2 personnes</option>
+                            <option value="three">3 personnes</option>
+                            <option value="four">4 personnes</option>
+                            <option value="five">5 personnes</option>
+                            <option value="six_and_more">6 personnes et plus</option>
+                        </select>
+                        <p>*&nbsp;Tout séjour de mineurs doit inclure au moins un accompagnateur majeur.</p>
+                        <label for="start">Début du séjour&nbsp;:</label>
+                        <input type="date" id="start" value="2021-04-01" min="2021-03-20" max="2022-03-20"
+                            class="my-2 my-md-4 mx-auto">
+                        <label for="end">Fin du séjour&nbsp;:</label>
+                        <input type="date" id="end" value="2021-04-01" min="2021-03-20" max="2022-03-20"
+                            class="my-2 my-md-4 mx-auto">
+                        <button type="button" form="booking_details" class="my-4 my-md-5 mx-auto">Rechercher</button>
+                    </form>
+                    <p>Les clés sont remises dès 11h00.</p>
+                    <p>Afin que vous profitiez au mieux de votre séjour, un service de conciergerie et une navette vers
+                        la gare de Masaka sont mis à votre disposition.</p>
+                    <p>Vous pouvez nous contacter pour plus d'informations.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Visible uniquement en cas de scroll -->
+        <button onclick="goToTop()" id="goToTop" title="Go to top">Top</button>
+    </main>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-12 bg-customgreen d-flex justify-content-around py-4">
+                <a href="#"><img src="icones/logo_Facebook.svg" alt="logo Facebook"></a>
+                <a href="#"><img src="icones/logo_Tripadvisor.svg" alt="logo TripAdvisor"></a>
+                <a href="#"><img src="icones/logo_Instagram.svg" alt="logo Instagram"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+<!-- Images utilisées libres de droits dans un but informatif et non commercial. -->
+
+</html>

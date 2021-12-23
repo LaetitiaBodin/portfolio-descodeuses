@@ -1,0 +1,16 @@
+$color_1: blue;
+$color_2: green;
+$outline_1: 2px solid $color_2;
+$outline_2: 2px solid $color_1;
+
+.titre {
+    h3 {
+    color: $color_1;
+    outline: $outline_1;
+    }
+}
+
+.corps {
+    color:$color_2;
+    outline: $outline_2;
+}

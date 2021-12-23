@@ -1,0 +1,123 @@
+/* === MEDIA QUERIES === */
+
+@import 'variables';
+
+/*Header*/
+@media all and (max-width: 719.98px) {
+    header ul {
+        @include shadowGrayInset;
+    }
+}
+
+/*Main*/
+@media all and (min-width: 1200px) {
+    section {
+        flex-direction: row;
+    }
+    article {
+        width: 70%;
+    }
+    aside {
+        width: 30%;
+    }
+    #social_media img{
+        width: 4vw;
+    }
+}
+
+@media all and (max-width: 1199.98px) {
+    section {
+        flex-direction: column;
+    }
+    article, aside {
+        width: 100%;
+    }
+    #social_media img{
+        width: 8vw;
+    }
+}
+
+@media all and (max-width: 719.98px) {
+    #banner div {
+        flex-direction: column;
+    }
+    #social_media img{
+        width: 12vw;
+    }
+}
+
+/*Footer*/
+@media all and (min-width: 1200px) {
+    #message {
+        width: 20%;
+    }
+    #photos, #friends {
+        width: 40%;
+    }
+}
+
+@media all and (min-width: 720px) and (max-width: 1199.98px) {
+    #message {
+        width: 30%;
+    }
+    #photos {
+        width: 70%;
+    }
+    #friends {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 720px) {
+    #friends ul {
+        width: 50%;
+        padding-left: 0%;
+    }
+    #friends_list_1 li {
+        text-align: right;
+        padding-right: 1vw;
+        &:after {
+            margin-left: 1vw;
+            content: "≺" ;
+            font-weight: bolder;
+        }
+    }
+    #friends_list_2 li {
+        text-align: left;
+        padding-left: 1vw;
+        &:before {
+            margin-right: 1vw;
+            content: "≻" ;
+            font-weight: bolder;
+        }
+    }
+}
+
+@media all and (max-width: 719.98px) {
+    #footer_content {
+        flex-direction: column;
+    }
+    #friends {
+        div {
+            flex-direction: column;
+            padding-bottom: 2vh;
+        }
+        ul {
+            width: 100%;
+            margin: 0%;
+            padding-left: 30%;
+        }
+        li:before {
+            margin-right: 2vw;
+            content: "≻" ;
+            font-weight: bolder;
+        }
+    }
+}
+
+body {
+    width: 90%;
+    margin: 1vh auto;
+    background-color: $shadeofYellow;
+    font-family: $mainFont;
+}

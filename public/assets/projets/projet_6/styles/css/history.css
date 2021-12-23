@@ -1,0 +1,81 @@
+@media all and (min-width: 1200px) {
+  article img {
+    height: 60%;
+  }
+}
+
+@media all and (min-width: 968px) and (max-width: 1199.98px) {
+  article {
+    padding-bottom: 10%;
+  }
+  article img {
+    height: 50%;
+  }
+}
+
+@media all and (min-width: 968px) {
+  #history {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  article {
+    width: 30%;
+  }
+  article img, article a {
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 967.98px) {
+  #history {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media all and (min-width: 720px) and (max-width: 967.98px) {
+  article img, article a {
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 719.98px) {
+  article img, article a {
+    width: 90%;
+  }
+}
+
+#history {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+article img {
+  vertical-align: middle;
+  text-align: center;
+}
+
+article a {
+  position: relative;
+  top: -2.2em;
+  padding: 0.5em 0em;
+  display: block;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: "Averta", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+article a:hover {
+  color: #00B3FA;
+}

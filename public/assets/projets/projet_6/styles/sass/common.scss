@@ -1,0 +1,36 @@
+@import '_variables';
+
+@media all and (min-width: 1200px) {
+    body {
+        overflow: scroll;
+    }
+}
+
+@media all and (max-width: 1199.98px){
+    p {
+        padding: 0vh 5vw;
+    }
+}
+
+
+main {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    h1 {
+        font-family: $fontBold;
+        padding: 2vh 0vw;
+        background-color: $shadeBlueMain;
+        color: $shadeBlackMain;
+    }
+    h2 {
+        font-family: $fontLight;
+        font-weight: bold;
+        color: $shadeBlackMain;
+    }
+    p {
+        font-family: $fontLight;
+        font-weight: bold;
+        color: $shadeBlackMain;
+    }
+}

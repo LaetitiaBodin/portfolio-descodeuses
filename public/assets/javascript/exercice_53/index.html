@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 53</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Exercice 53</h1>
+    <h2>CONTACT</h2>
+    <form action="#" method="POST">
+        <label for="inputSurname">Nom&nbsp;*</label>
+        <input required type="text" id="inputSurname" name="inputSurname" placeholder="ex : NOM">
+        <p id="checkSurname"></p>
+        <label for="inputName">Prénom&nbsp;*</label>
+        <input required type="text" id="inputName" name="inputName" placeholder="ex : PRENOM">
+        <p id="checkName"></p>
+        <label for="inputMail">Adresse Gmail&nbsp;*</label>
+        <input required type="email" id="inputMail" name="inputMail" placeholder="ex : adresse@gmail.com">
+        <p id="checkMail"></p>
+        <label for="inputPhone">Téléphone&nbsp;*</label>
+        <input required type="text" id="inputPhone" name="inputPhone" minlength="14" maxlength="14" placeholder="ex : 01.02.03.04.05">
+        <p id="checkPhone"></p>
+        <label for="inputBirthDate">Date de naissance&nbsp;*</label>
+        <input required type="date" id="inputBirthDate" name="inputBirthDate" min="1900-01-01" max="2006-12-31">
+        <p id="checkBirthDate"></p>
+        <label for="inputBirthPlace">Département de naissance&nbsp;*</label>
+        <input required type="text" id="inputBirthPlace" name="inputBirthPlace" minlength="2" maxlength="3" placeholder="ex : 01">
+        <p id="checkBirthPlace"></p>
+        <label for="inputCompany">Entreprise&nbsp;*</label>
+        <input required type="text" id="inputCompany" name="inputCompany" placeholder="ex : NOM DE L'ENTREPRISE">
+        <p id="checkCompany"></p>
+        <label for="inputJob">Poste&nbsp;*</label>
+        <input required type="text" id="inputJob" name="inputJob" placeholder="ex : POSTE OCCUPE">
+        <p id="checkJob"></p>
+        <label for="textMessage">Message</label>
+        <textarea spellcheck="true" id="textMessage" name="textMessage" rows="10" cols="30" placeholder="Message"></textarea>
+        <button id="buttonSend" type="submit">ENVOYER</button>
+        <p id="notice">* Informations obligatoires<br>
+            Nom, Prénom, Entreprise et Poste&nbsp;: Merci de n'utiliser que des lettres majuscules.<br>
+            Téléphone et Date de naissance&nbsp;: Merci de respecter le format indiqué.</p>
+    </form>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

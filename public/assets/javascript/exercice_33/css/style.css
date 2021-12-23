@@ -1,0 +1,14 @@
+* {
+    color: #000;
+    text-align: center;
+}
+
+p {
+    width: 80%;
+    margin: 1rem auto;
+    text-align: justify;
+}
+
+button:disabled {
+    opacity: 0.5;
+}

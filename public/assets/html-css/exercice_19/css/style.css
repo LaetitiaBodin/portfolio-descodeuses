@@ -1,0 +1,16 @@
+body {
+    margin: 1vh auto;
+    width: 1200px;
+    overflow: scroll;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    height: 200px;
+}

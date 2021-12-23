@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import { pages } from '../index'
+
 export const Header = ({page, smallScreen}) => {
     return smallScreen ? <NavbarS {...{page}} /> : <NavbarL {...{page}} />
 }
 
-const NavbarS = ({page}) => {
+const NavbarS = (page) => {
     
     const [navOpen, setNavOpen] = React.useState(false)
     const navClass = navOpen ? 'nav_s_open' : 'nav_s_close'
@@ -22,47 +24,36 @@ const NavbarS = ({page}) => {
     return (
         <div className={`header header_s ${navClass}`}>
             <div className='nav_s'>
-                <Navbar {...{page}}/>
+                <Navbar {...page}/>
             </div>
             <div onClick={toggleNav} className='nav_s_tip'>{icon}</div>
         </div>
     )
 }
 
-const NavbarL = ({page}) => {
+const NavbarL = (page) => {
     return (
         <div className='header header_l'>
-            <Navbar {...{page}}/>
+            <Navbar {...page}/>
         </div>
     )
 }
 
 const Navbar = ({page}) => {
-
-    const pages = [
-        {name: 'HTML / CSS', link: '/html-css'},
-        {name: 'JAVASCRIPT', link: '/javascript'},
-        {name: 'PHP', link: '/php'},
-        {name: 'PROJETS', link: '/projets'},
-
-    ]
-
-    let links = []
-    for (let i = 0; i < pages.length; i++) {
-        let classLink =  i === page ? 'current' : ''   
-        links.push(
-            <li key={`navLink_${i}`}>
-                <Link to={pages[i].link} className={classLink}>{pages[i].name}</Link>
-            </li>
-        )
-    }
-
     return (
         <>
         <Link to='/' className='title'>PORTFOLIO @DESCODEUSES</Link>
             <nav>
                 <ul>
-                    {links}
+                    {
+                        pages.map((p, idx) => {
+                            let classLink = idx === page ? 'current' : ''   
+                            return (
+                                <li key={`navLink_${idx}`}>
+                                    <Link to={p.path} className={classLink}>{p.props.pagename}</Link>
+                                </li>)
+                        })
+                    }
                 </ul>
             </nav>
         </>

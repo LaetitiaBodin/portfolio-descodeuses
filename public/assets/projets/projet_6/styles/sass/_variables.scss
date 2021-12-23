@@ -1,0 +1,25 @@
+$fontBold: 'Franklin Gothic Heavy';
+$fontLight: 'Averta', Arial, Helvetica, sans-serif;
+
+$shadeBlueMain: #00B3FA;
+$shadeBlackMain: #3C3C3C;
+$shadeBlueMainTransparent: #00B3FA80;
+
+@mixin buttonDefault {
+    background-color: $shadeBlueMain;
+    border-color: silver;
+    color: #ffffff;
+    border-style: outset;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+}
+@mixin buttonPressed {
+    background-color: $shadeBlueMain;
+    border-color: silver;
+    color: #ffffff;
+    border-style: inset;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+}
+
+

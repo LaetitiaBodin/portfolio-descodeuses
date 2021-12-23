@@ -1,0 +1,45 @@
+/* FORMS STYLING */
+@media all and (min-width: 1200px){
+    main h1, input, textarea {
+        width: 30%;
+    }
+}
+@media all and (min-width: 720px) and (max-width: 1199.98px) {
+    main h1, input, textarea {
+        width: 50%;
+    }
+}
+@media all and (max-width: 719.98px) {
+    main h1, input, textarea {
+        width: 70%;
+    }
+}
+
+main h1 {
+    text-align: center;
+    margin: 1vh auto;
+    background-color: #102915;
+    color: #ffffff;
+}
+
+form * {
+    display: block;
+    margin: 2vh auto;
+    text-align: center;
+    color: #102915;
+}
+
+input {
+    height: 3em;
+}
+
+input, textarea {
+    border: 2px solid #102915;
+}
+
+button {
+    font-weight: bold;
+    background-color: #102915;
+    color: #ffffff;
+    padding: 1vh 1vw;
+}

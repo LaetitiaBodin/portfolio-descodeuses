@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+    transition: all 0.5s linear;
+}
+
+#square {
+    margin: 1rem auto;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin: 0.2rem;
+    font-weight: bold;
+    background-color: #4169E1;
+    color: #FFFFFF;
+}
+
+button:disabled {
+    opacity: 0.2;
+}
+
+button:not([disabled]) {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.large {
+    width: 400px;
+    height: 400px;
+}
+
+.small {
+    width: 300px;
+    height: 300px;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.colorLight {
+    background-color: #FFA07A;
+}
+
+.colorDark {
+    background-color: #8B0000;
+}

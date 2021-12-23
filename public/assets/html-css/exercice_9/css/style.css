@@ -1,0 +1,26 @@
+body {
+    width: 70%;
+    margin: 0% auto;
+}
+
+h1 {
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgreen;
+    text-align: center;
+}
+
+#para1, #para2 {
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+#para1 {
+    font-family: 'Trebuchet MS', 'Lucida Grande', sans-serif;
+    color: darkmagenta;
+}
+
+#para2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslateblue;
+}

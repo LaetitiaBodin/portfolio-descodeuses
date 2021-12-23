@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 17</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <div class="container-fluid text-center">
+        <h1>Exercice 17</h1>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
+                <label for="pwdSub">Please, enter your password.</label>
+                <input id="pwdSub" type="password"/>
+                <img id="pwdSubEye" src="img/eye-slash-solid.svg" alt="oeil fermé" onclick="togglePassword(pwdSub, pwdSubEye);"> 
+                <label for="pwdConf">Please, confirm your password.</label>
+                <input id="pwdConf" type="password"/>
+                <img id="pwdConfEye" src="img/eye-slash-solid.svg" alt="oeil fermé" onclick="togglePassword(pwdConf, pwdConfEye);"> 
+                <p id="match" class="h4 pt-2">&nbsp;</p>
+                <button id="buttonCheck" onclick="checkPassword();">CHECK</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

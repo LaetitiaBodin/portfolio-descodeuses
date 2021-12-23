@@ -1,0 +1,330 @@
+[
+    {
+        "name": "Exercice 01",
+        "series": "Bases",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 02",
+        "series": "Bases",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 03",
+        "series": "Bases",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 04",
+        "series": "Bases",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 05",
+        "series": "Bases",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 06",
+        "series": "Bases",
+        "files": [
+            "readme.docx",
+            "index.html"
+        ]
+    },
+    {
+        "name": "Exercice 07",
+        "series": "Bases",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 08",
+        "series": "Bases",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 09",
+        "series": "Bases",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 10",
+        "series": "Bases",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 11",
+        "series": "Bases",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "images/mastercard.svg",
+            "images/visa.svg"
+        ]
+    },
+    {
+        "name": "Exercice 12",
+        "series": "Flexbox",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 13",
+        "series": "Flexbox",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 14",
+        "series": "Flexbox",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 15",
+        "series": "Flexbox",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 16",
+        "series": "Flexbox",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 17",
+        "series": "Flexbox",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 18",
+        "series": "Flexbox",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 19",
+        "series": "Flexbox",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "images/cheval-b.png",
+            "images/cheval-n.png",
+            "images/fou-b.png",
+            "images/fou-n.png",
+            "images/pion-b.png",
+            "images/pion-n.png",
+            "images/reine-b.png",
+            "images/reine-n.png",
+            "images/roi-b.png",
+            "images/roi-n.png",
+            "images/tour-b.png",
+            "images/tour-n.png"
+        ]
+    },
+    {
+        "name": "Exercice 20",
+        "series": "Flexbox",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 21",
+        "series": "Sass",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "styles/css/style.css",
+            "styles/mincss/style.min.css",
+            "styles/scss/style.scss"
+        ]
+    },
+    {
+        "name": "Exercice 22",
+        "series": "Sass",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "styles/css/style.css",
+            "styles/mincss/style.min.css",
+            "styles/scss/style.scss"
+        ]
+    },
+    {
+        "name": "Exercice 23",
+        "series": "Sass",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "styles/css/style.css",
+            "styles/mincss/style.min.css",
+            "styles/scss/style.scss"
+        ]
+    },
+    {
+        "name": "Exercice 24",
+        "series": "Sass",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "styles/css/style.css",
+            "styles/mincss/style.min.css",
+            "styles/scss/style.scss"
+        ]
+    },
+    {
+        "name": "Exercice 25",
+        "series": "Sass",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "styles/css/style.css",
+            "styles/mincss/style.min.css",
+            "styles/scss/style.scss"
+        ]
+    },
+    {
+        "name": "Exercice 26",
+        "series": "Sass",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "images/background.jpg",
+            "styles/css/style.css",
+            "styles/mincss/style.min.css",
+            "styles/scss/style.scss"
+        ]
+    },
+    {
+        "name": "Exercice 27",
+        "series": "Bootstrap",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "styles/bootstrap.min.css",
+            "styles/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 28",
+        "series": "Bootstrap",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "styles/bootstrap.min.css",
+            "styles/style.css"
+        ]
+    },
+    {
+        "name": "Exercice 29",
+        "series": "Bootstrap",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "styles/bootstrap.min.css"
+        ]
+    },
+    {
+        "name": "Exercice 30",
+        "series": "Bootstrap",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "styles/bootstrap.min.css"
+        ]
+    },
+    {
+        "name": "Exercice 31",
+        "series": "Bootstrap",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "styles/bootstrap.min.css"
+        ]
+    },
+    {
+        "name": "Exercice 32",
+        "series": "Bootstrap",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "styles/bootstrap.min.css"
+        ]
+    },
+    {
+        "name": "Exercice 33",
+        "series": "Bootstrap",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "js/bootstrap.bundle.min.js",
+            "js/bootstrap.min.js",
+            "js/jquery.slim.js",
+            "styles/bootstrap.min.css"
+        ]
+    }
+]

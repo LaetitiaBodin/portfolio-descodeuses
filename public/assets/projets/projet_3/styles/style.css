@@ -1,0 +1,117 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: whitesmoke;
+}
+
+/*The header and footer share the same styles.*/
+header, footer {
+    background-color: darkslateblue;
+    color: aliceblue;
+    padding: 2%;
+    text-align: center;
+}
+
+.slim, #skills, h3 {
+    margin: 0 auto;
+}
+.pad, aside {
+    padding: 1%;
+}
+#skills, details {
+    text-align: center;
+}
+
+/*These three elements will wrap in the same way.*/
+#contact, #skills, #training {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Styling the contact part.*/
+#contact {
+    background-color: paleturquoise;
+    color: mediumblue;
+}
+#contact img {
+    /*The svg color is the same as #contact.*/
+    margin-right: 1%;
+    width: 5%;
+    height: auto;
+    vertical-align: middle;
+}
+/*A trick so that the spanned text stays aligned with the text above!*/
+#contact p span {
+    margin: 7%;
+}
+#contact a {
+    text-decoration: none;
+}
+#contact a:hover {
+    background: lightskyblue;
+    padding: 0 1%;
+}
+
+/* Whether the details are opened are shut, the background color remains the same.*/
+section, details {
+    background-color: lightcyan;
+}
+
+/*Styling the skills part.*/
+#skills div {
+    width: 50%;
+    padding: 0%;
+}
+h3, summary {
+    padding: 2% 0%;
+}
+/*Styling the details so they look more like show/hide buttons.*/
+details {
+    width: 50%;
+    transition-duration: 0.5s
+}
+details[open] {
+    width: 100%;
+    transition-duration: 0.5s
+}
+/*The h3 and summary elements have the same background-color.*/
+h3, summary:hover, details[open] summary {
+    background: lightskyblue;
+}
+/*Styling the summary element: the default triangle is gone.*/
+details summary {
+    cursor: default;
+    list-style: none;
+}
+/*for browsers like Chrome, extra styling is needed:*/
+details summary::-webkit-details-marker {
+    display: none;
+}
+details summary:focus {
+    outline: none;
+}
+.date, .desc {
+    font-style: italic;
+    color: mediumblue;
+}
+.date {
+    font-weight: lighter;
+}
+/*Styling the lists.*/
+details dl, details ul {
+    padding: 1% 0%;
+}
+details, li {
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+ul, li, dt, dd {
+    padding: 0%;
+}
+li, dt {
+    color: midnightblue;
+}

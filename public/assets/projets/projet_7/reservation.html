@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Reservation en ligne au Gîte de Masaca"/>
+    <title>Réservations - Gîtes de la forêt</title>
+    <script src="https://kit.fontawesome.com/51b1869a1d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="photos/logo.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reservation.css">
+</head>
+<body>
+    <header>
+        <div id="header1">
+            <div id="container_logo">
+                <div id="logo">
+                    <a href="index.html"><img src="photos/logo.png" alt="Logo du gîte"></a>
+                </div>
+                <div id="titre">
+                    <h1>Gîtes de la forêt</h1>
+                    <h2>Forêt de Masaka</h2>
+                </div>
+            </div>
+            <div id="hamburger">
+                <a href="menu.html"><i class="fas fa-bars fa-customize"></i></a>
+            </div>
+        </div>
+     <!--Header lorsque la taille de la fenêtre est supérieur à 768px-->
+        <div id="header2">
+            <div id="container_logo">
+                <div id="logo">
+                    <a href="index.html"><img src="photos/logo.png" alt="Logo du gîte"></a>
+                </div>
+                <div id="titre">
+                    <h1>Gîtes de la forêt</h1>
+                    <h2>Forêt de Masaka</h2>
+                </div>
+            </div>
+            <nav id="menu_cache">
+                <ul>
+                    <li id="first_item"><a href="gites.html">NOS GÎTES</a></li>
+                    <li><a href="reservation.html">RESERVATION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="activites.html">A VOIR/A FAIRE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="booking">
+        <h1>RESERVATION</h1>
+        <form id="booking_details">
+            <label for="guests">Je souhaite réserver pour&nbsp;:</label>
+            <select id="guests">
+                <option value="one">1 personne</option>
+                <option value="two" selected>2 personnes</option>
+                <option value="three">3 personnes</option>
+                <option value="four">4 personnes</option>
+                <option value="five">5 personnes</option>
+                <option value="six_and_more">6 personnes et plus</option>
+            </select>
+            <label for="start">Début du séjour&nbsp;:</label>
+            <input type="date" id="start" value="2021-04-01" min="2021-03-20" max="2022-03-20">
+            <label for="end">Fin du séjour&nbsp;:</label>
+            <input type="date" id="end" value="2021-04-01" min="2021-03-20" max="2022-03-20">
+            <button type="button" form="booking_details">Rechercher</button>
+        </form>
+        <p>Les clés sont remises dès 11h00.</p>
+        <p>Afin que vous profitiez au mieux de votre séjour, un service de conciergerie et une navette vers la gare de
+        Masaca sont mis à votre disposition.</p>
+        <p>Vous pouvez nous contacter pour plus d'informations.</p>
+    </main>
+    <footer>
+        <img src="icones/facebook_logo.svg" alt="logo Facebook">
+        <img src="icones/tripadvisor_logo.svg" alt="logo TripAdvisor">
+        <img src="icones/instagram_logo.svg" alt="logo Instagram">
+    </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+$mainFontFamily: 'Times New Roman', Times, serif;
+$titleFontFamily: 'Lucida Sans', verdana, sans-serif;
+$colorMain: black;
+$colorSecondary: teal;
+$colorTertiary: steelblue;
+
+@mixin titleBackground {
+    background-image: url('../../images/background.jpg');
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0 auto;
+    width: 90%;
+    font-family: $mainFontFamily;
+}
+
+h1, h2, h3 {
+    font-family: $titleFontFamily;
+}
+
+h1 {
+    @include titleBackground;
+    padding: 4vh 0vw;
+    text-align: center;
+}
+
+h2 {
+    color: $colorSecondary;
+}
+
+h3 {
+    color: $colorTertiary;
+}
+
+a {
+    &:link {
+        color: $colorMain;
+        text-decoration: none;
+    }
+    &:hover {
+        color: $colorSecondary;
+    }
+    &:visited {
+        color: $colorTertiary;
+    }
+}

@@ -62,6 +62,8 @@ nav {
 
 .header_s {
     flex-direction: row;
+    z-index: 99;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .nav_s {
@@ -84,6 +86,7 @@ nav {
 
 .nav_s_tip {
     width: 20px;
+    border-radius: 0px 10px 10px 0px;
     display: flex;
     justify-content: center;
     align-items: center;

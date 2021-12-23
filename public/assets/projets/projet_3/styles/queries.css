@@ -1,0 +1,71 @@
+@media (min-width: 1200px) {
+    * {
+        line-height: 22px;
+        font-size: 22px;
+    }
+    body {
+        width: 60%;
+    }
+    h1 {
+        line-height: 50px;
+        font-size: 50px;
+    }
+    h2 {
+        line-height: 40px;
+        font-size: 40px;
+    }
+    #contact div {
+        width: 48%;
+    }
+    .desc, .date {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    body {
+        width: 90%;
+    }
+    #wrapper {
+        margin: 5% auto;
+    }
+    .desc, .date {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+    * {
+        line-height: 18px;
+        font-size: 18px;
+    }
+    h1 {
+        line-height: 40px;
+        font-size: 40px;
+    }
+    h2 {
+        line-height: 32px;
+        font-size: 32px;
+    }
+    #contact div {
+        width: 48%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    * {
+        line-height: 14px;
+        font-size: 14px;
+    }
+    h1 {
+        line-height: 30px;
+        font-size: 30px;
+    }
+    h2 {
+        line-height: 22px;
+        font-size: 22px;
+    }
+    #contact div {
+        width: 98%;
+    }
+}

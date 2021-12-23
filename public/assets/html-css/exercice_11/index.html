@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Validation</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>PAIEMENT</h1>
+        <form id="confirmation">
+            <div id="div_1">
+                <fieldset id="yourID">
+                    <legend>Votre identité</legend>
+                    <label for="surname">Nom</label>
+                    <input type="text" id="surname" name="surname" placeholder="Ex : Nom" required>
+                    <label for="name">Prénom</label>
+                    <input type="text" id="name" name="name" placeholder="Ex : Prénom" required>
+                    <label for="mail">Adresse mail</label>
+                    <input type="email" id="mail" name="mail" placeholder="Ex : martindupont@gmail.com" required>
+                </fieldset>
+                <fieldset id="payment">
+                    <legend>Informations de paiement</legend>
+                    <p>Type de carte bancaire</p>
+                    <p id="cardChoice">
+                        <label>
+                            <input type="radio" id="visa" name="card" title="VISA" value="VISA">
+                            <img src="images/visa.svg" alt="visa">
+                        </label>
+                        <label>
+                            <input type="radio" id="mastercard" name="card" title="Mastercard" value="Mastercard">
+                            <img src="images/mastercard.svg" alt="mastercard">
+                        </label>
+                    </p>
+                    <label for="cardNumber">Numéro de carte</label>
+                    <input type="text" id="cardNumber" name="cardNumber" placeholder="Ex : 0000 0000 0000 0000"
+                        minlength="19" maxlength="19" required>
+                    <label for="securityCode">Code de sécurité</label>
+                    <input type="text" id="securityCode" name="securityCode" minlength="3" maxlength="3"
+                        placeholder="Ex : 012" required>
+                    <label for="ownerID">Nom du titulaire</label>
+                    <input type="text" id="ownerID" name="ownerID" placeholder="Ex : Martin DUPONT" required>
+                </fieldset>
+            </div>
+            <div id="div_2">
+                <fieldset id="delivery">
+                    <legend>Adresse de livraison</legend>
+                    <label for="address">N° Voie</label>
+                    <input type="text" id="address" name="address" placeholder="Ex : 1 rue Rivoli" required>
+                    <label for="zipcode">Code postal</label>
+                    <input type="text" id="zipcode" name="zipcode" minlength="5" maxlength="5" placeholder="Ex : 75004"
+                        required>
+                    <label for="city">Ville</label>
+                    <input type="text" id="city" name="city" placeholder="Ex : PARIS" required>
+                    <label for="phone">Numéro de téléphone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Ex : 0102030405" maxlength="10">
+                    <label for="story">Consignes de livraison</label>
+                    <textarea id="story" name="story" rows="10" cols="33"></textarea>
+                </fieldset>
+            </div>
+
+        </form>
+        <button type="submit" form="confirmation">VALIDATION</button>
+    </div>
+</body>
+
+</html>

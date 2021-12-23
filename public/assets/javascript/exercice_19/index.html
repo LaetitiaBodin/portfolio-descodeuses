@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 19</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body onload="addCities();">
+    <div class="container-fluid text-center">
+        <h1>Exercice 19</h1>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6" id="dynamicDiv">
+                <h2>CITIES</h2>
+                <div class="my-4">
+                    <input type="text" id="addCity" class="text-center">
+                    <div class="mt-3">
+                        <button class="btn btn-info shadow-none" onclick="addFirst();">ADD TO THE LIST (FIRST)</button>
+                        <button class="btn btn-info shadow-none" onclick="addLast();">ADD TO THE LIST (LAST)</button>
+                    </div>
+                    <div class="mt-1">
+                        <button class="btn btn-info shadow-none" onclick="rmvFirst();">REMOVE FROM THE LIST (FIRST)</button>
+                        <button class="btn btn-info shadow-none" onclick="rmvLast();">REMOVE FROM THE LIST (LAST)</button>
+                    </div>
+                </div>
+                <ul id="citiesList" class="mx-auto list-group"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

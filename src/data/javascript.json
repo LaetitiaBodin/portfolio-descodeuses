@@ -1,0 +1,627 @@
+[
+    {
+        "name": "Exercice 01",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 02",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 03",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 04",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 05",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 06",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 07",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "img/Image_1.png",
+            "img/Image_2.png",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 08",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 09",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 10",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 11",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "css/style.css",
+            "img/Image_1a.jpg",
+            "img/Image_1b.jpg",
+            "img/Image_2a.jpg",
+            "img/Image_2b.jpg",
+            "img/Image_3a.jpg",
+            "img/Image_3b.jpg",
+            "img/Image_4a.jpg",
+            "img/Image_4b.jpg",
+            "img/Image_5a.jpg",
+            "img/Image_5b.jpg",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 12",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "css/style.css",
+            "img/Image_1a.jpg",
+            "img/Image_1b.jpg",
+            "img/Image_2a.jpg",
+            "img/Image_2b.jpg",
+            "img/Image_3a.jpg",
+            "img/Image_3b.jpg",
+            "img/Image_4a.jpg",
+            "img/Image_4b.jpg",
+            "img/Image_5a.jpg",
+            "img/Image_5b.jpg",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 13",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 14",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "css/custom.css",
+            "img/Image.png",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 15",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 16",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 17",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "css/custom.css",
+            "img/eye-slash-solid.svg",
+            "img/eye-solid.svg",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 18",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 19",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 20",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 21",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 22",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 23",
+        "series": "Vanilla",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "css/style.css",
+            "img/icon.svg",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 24",
+        "series": "Canvas",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 25",
+        "series": "Canvas",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 26",
+        "series": "Canvas",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 27",
+        "series": "Canvas",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 28",
+        "series": "Canvas",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 29",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 30",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 31",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 32",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 33",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 34",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 35",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 36",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 37",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 38",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 39",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 40",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "images/image.jpg",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 41",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 42",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 43",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 44",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 45",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 46",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 47",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 48",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 49",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "img/background.jpg",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 50",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/bootstrap.min.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 51",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 52",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 53",
+        "series": "Jquery",
+        "files": [
+            "readme.docx",
+            "index.html",
+            "css/style.css",
+            "js/jquery.min.js",
+            "js/script.js"
+        ]
+    },
+    {
+        "name": "Exercice 54",
+        "series": "Jasmine",
+        "files": [
+            "readme.docx",
+            "SpecRunner.html",
+            "lib/jasmine-3.7.1/boot.js",
+            "lib/jasmine-3.7.1/jasmine_favicon.png",
+            "lib/jasmine-3.7.1/jasmine-html.js",
+            "lib/jasmine-3.7.1/jasmine.css",
+            "lib/jasmine-3.7.1/jasmine.js",
+            "spec/questions.spec.js",
+            "src/questions.js",
+            "MIT.LICENSE"
+        ]
+    },
+    {
+        "name": "Exercice 55",
+        "series": "Jasmine",
+        "files": [
+            "readme.docx",
+            "SpecRunner.html",
+            "lib/jasmine-3.7.1/boot.js",
+            "lib/jasmine-3.7.1/jasmine_favicon.png",
+            "lib/jasmine-3.7.1/jasmine-html.js",
+            "lib/jasmine-3.7.1/jasmine.css",
+            "lib/jasmine-3.7.1/jasmine.js",
+            "spec/questions.spec.js",
+            "src/questions.js",
+            "MIT.LICENSE"
+        ]
+    }
+]

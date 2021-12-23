@@ -1,0 +1,62 @@
+:root {
+    --color-primary: #83c5be;
+    --color-secondary: #e29578;
+}
+
+html {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
+
+h1, p {
+    text-align: center;
+}
+
+#divSquare {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+/* -- STYLING THE INPUTS -- */
+
+/* They will share the same position and properties.
+Only their colors and z-index will differ.
+They will be styled so that combined together, they look like a button. */
+
+#inputON, #inputOFF {
+    outline: none;
+    position: absolute;
+    left: 40vw;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    width: 20vw;
+    caret-color: transparent;
+    cursor: pointer;
+    border-radius: 10px
+}
+
+#inputOFF {
+    background-color: var(--color-primary);
+    border: 6px inset var(--color-secondary);
+    z-index: 2;
+}
+
+#inputOFF:focus {
+    outline: none;
+    background-color: var(--color-primary);
+    border: 6px outset var(--color-secondary);
+}
+
+#inputON {
+    background-color: var(--color-primary);
+    border: 6px outset var(--color-secondary);
+    z-index: 1;
+}
+
+#inputON:focus {
+    outline: none;
+    background-color: var(--color-primary);
+    border: 6px inset var(--color-secondary);
+}

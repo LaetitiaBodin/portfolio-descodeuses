@@ -1,0 +1,126 @@
+/* VARIABLES */
+.bg-customgreen {
+  background-color: #102915;
+}
+
+/* BOOTSTRAP TWEAKS AND ADD-ONS */
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
+  }
+}
+
+.navbar-toggler {
+  padding: 0 !important;
+  font-size: 1.8rem;
+  margin-top: 0.75rem;
+}
+
+/* CUSTOM STYLES */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #102915;
+}
+
+body * {
+  text-align: center;
+}
+
+header img {
+  width: 3rem !important;
+}
+
+main {
+  background-image: url("../../photos/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main h1, main h2 {
+  color: #F5FFFA;
+  background-color: #102915;
+}
+
+main img {
+  width: 100%;
+}
+
+main label, main p, main details {
+  color: #F5FFFA;
+}
+
+main form {
+  background-color: #102915;
+}
+
+main button {
+  color: #102915;
+  background-color: #F5FFFA;
+  font-weight: bold;
+}
+
+main select {
+  /* To center-align horizontally the options. */
+  text-align-last: center;
+}
+
+main summary {
+  outline: none;
+}
+
+/* Visual trick to add more vertical margin when the CONTACT page is viewed on a tablet in portrait orientation.
+Without it, the body falls short and the footer is too high.
+The margin value may be raised. If lowered, it may result in a poor positioning.*/
+@media (min-width: 768px) and (max-width: 1199.98px) and (orientation: portrait) {
+  #contact_details {
+    margin: 5rem auto !important;
+  }
+}
+
+footer img {
+  width: 2rem;
+}
+
+#goToTop {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  border: 2px solid #F5FFFA;
+  outline: none;
+  background-color: #102915;
+  color: #F5FFFA;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10px;
+}
+
+#goToTop:hover {
+  background-color: #F5FFFA;
+  /* Add a dark-grey background on hover */
+  color: #102915;
+}
+
+@media all and (max-width: 575.99px) {
+  #goToTop {
+    bottom: 4rem;
+    right: 2rem;
+  }
+}
+
+@media all and (min-width: 576px) and (max-width: 767.99px) {
+  #goToTop {
+    bottom: 4rem;
+    right: 4rem;
+  }
+}
+
+@media all and (min-width: 768px) {
+  #goToTop {
+    bottom: 4rem;
+    right: 6rem;
+  }
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #F5F5DC;
+}
+
+input {
+    display: block;
+    margin: 0.5rem auto;
+    background-color: #FFEBCD;
+}
+
+button {
+    background-color: #F5F5F5;
+}
+
+/* --  STYLING THE INPUTS : REMOVING THE ARROWS--*/
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Chrome */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	margin:0;
+}
+
+/* Opéra*/
+input::-o-inner-spin-button,
+input::-o-outer-spin-button { 
+	-o-appearance: none;
+	margin:0
+}

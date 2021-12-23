@@ -1,0 +1,23 @@
+body {
+    font-size: 16px;
+}
+
+#wrapper {
+    width: 300px;
+    border: 2px dotted black;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}

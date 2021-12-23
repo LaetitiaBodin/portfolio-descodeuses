@@ -1,0 +1,7 @@
+.corps {
+    font-family: Arial, Helvetica, sans-serif;
+    &-premier {
+        @extend .corps;
+        color: darkslateblue;
+    }
+}

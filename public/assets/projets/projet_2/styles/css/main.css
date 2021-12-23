@@ -1,0 +1,124 @@
+/* === MAIN === */
+#banner {
+  margin-top: 2vh;
+}
+
+#banner img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#banner div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffe6;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: -1vh;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#banner p {
+  margin-top: 0.5vh;
+  margin-bottom: 0vh;
+}
+
+#banner a {
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #ffffe6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff5a5a), color-stop(50%, #a20000));
+  background: linear-gradient(180deg, #ff5a5a 0%, #a20000 50%);
+  border-style: outset;
+  margin-top: 0.5vh;
+  margin-bottom: 0vh;
+  text-decoration: none;
+  color: #ffffe6;
+  padding: 0.4vh 1vw;
+}
+
+#banner a:active {
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #ffffe6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff5a5a), color-stop(50%, #a20000));
+  background: linear-gradient(180deg, #ff5a5a 0%, #a20000 50%);
+  border-style: inset;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2vh 0;
+}
+
+article, aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+article h1, aside h1 {
+  text-align: center;
+}
+
+article p, aside p {
+  width: 90%;
+  text-align: justify;
+  margin: 1vh auto;
+}
+
+aside {
+  -webkit-box-shadow: inset 0 0 4px 2px #ffffe6;
+          box-shadow: inset 0 0 4px 2px #ffffe6;
+  border-radius: 10px;
+  background-color: lightslategrey;
+  padding: 2vh 0;
+}
+
+#photo_Zozor {
+  margin: 1vh 20%;
+  width: 60%;
+  border-radius: 10px;
+}
+
+#social_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 1vh 10%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#social_media a img {
+  border-width: 2px;
+  border-color: #ffffe6;
+  border-radius: 10px;
+  background-color: #ffffe6;
+  border-style: outset;
+}
+
+#social_media a:active img {
+  border-width: 2px;
+  border-color: #ffffe6;
+  border-radius: 10px;
+  background-color: #ffffe6;
+  border-style: inset;
+}

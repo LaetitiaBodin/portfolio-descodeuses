@@ -1,0 +1,16 @@
+button {
+    color: white;
+    font-weight: bold;
+}
+#bRed {
+    background-color: red;
+}
+#bBlue {
+    background-color: blue;
+}
+#bGreen {
+    background-color: green;
+}
+#bDefault {
+    background-color: black;
+}

@@ -1,0 +1,148 @@
+@media screen and (min-width: 1200px) {
+    body {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    body {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    * {
+        font-size: 20px;
+    }
+    #div_1, #div_2 {
+        width: 48%;
+        margin: 0% 1%;
+    }
+    h1, #confirm {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    * {
+        font-size: 50px;
+    }
+    #div_1, #div_2 {
+        width: 98%;
+        margin: 0% 1%;
+    }
+    h1, #confirm {
+        font-size: 60px;
+    }
+}
+
+* {
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+#wrapper {
+    margin: 1vh auto;
+}
+
+h1 {
+    color: honeydew;
+    background-color: mediumpurple;
+    width: 50vw;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Fieldset 1 */
+#yourID, #yourID legend {
+    background-color: lightblue;
+}
+
+/* Fieldset 2 */
+#payment, #payment legend {
+    background-color: lightpink;
+}
+
+/* Fieldset 3 */
+#delivery, #delivery legend {
+    background-color: thistle;
+}
+
+/* Styling: the radio input is placed in a p */
+#cardChoice input, #cardChoice label {
+    display: inline;
+}
+
+#cardChoice img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+#cardChoice input {
+    min-width: 1%;
+    max-width: 5%;
+}
+
+fieldset, button {
+    margin: 1vh auto;
+    border-style: none;
+}
+
+legend {
+    padding: 2vh 2vw 0vh 2vw;
+}
+
+label {
+    padding: 2% 0%;
+}
+
+input {
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+textarea {
+    border-radius: 5px;
+    text-align: left;
+}
+
+button{
+    font-weight: bold;
+    background-color: mediumseagreen;
+    color: indigo;
+    display: block;
+    padding: 1vh 1vw;
+}
+
+input:focus, textarea, button {
+    outline: none;
+}
+
+/* Styling some symmetry amongst the elements.*/
+
+body, form, legend, h1,
+label, input, p, textarea {
+    margin: 0 auto;
+}
+
+h1, fieldset, legend, button {
+    border-radius: 15px;
+}
+
+h1, label, input, p, textarea {
+    width: 70%;
+}
+
+label, input, p, textarea {
+    display: block;
+}
+
+h1, legend, label, input, p {
+    text-align: center;
+}

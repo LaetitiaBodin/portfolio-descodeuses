@@ -1,0 +1,8 @@
+/*
+The following style is the equivalent of "my-1" used in bootstrap.
+If applied directly to the html, the code may become cluttered.
+Hence the complementary css sheet.
+*/
+p {
+    margin: 0.25rem!important;
+}

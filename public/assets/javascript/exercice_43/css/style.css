@@ -1,0 +1,10 @@
+body {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+label, input, button {
+    display: block;
+    margin: 1rem auto;
+}

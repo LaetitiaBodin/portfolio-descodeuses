@@ -1,0 +1,82 @@
+body{
+    width:100vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #4e4633;
+    text-align: center;
+}
+.banner{
+  display: flex;
+  /* background: deeppink; */
+}
+.banner-pic{
+  width: 100vw;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-image: url(../photos/cabane-4.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+.banner img{
+    width: 100%;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.presentation>p{
+  width: 27%;
+  background: #102915;
+  padding: 5vh;
+  margin-top: 25vh;
+  border-radius: 5px;
+  margin: 30vh auto;
+  color: blanchedalmond;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.banner-pic figcaption{
+  vertical-align: middle;
+}
+
+.content{
+  background:#fff;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.card {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  flex-direction: column;
+  margin-top: 9vh;
+  margin-bottom: 9vh;
+
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img.card-image{
+  background: #000;
+  border: 20px solid white;
+  border-radius:5px;
+  margin: 8px;
+}
+.description p{
+  padding: 25px 16px;
+}

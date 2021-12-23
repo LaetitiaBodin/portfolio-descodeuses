@@ -1,0 +1,32 @@
+body * {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 0.3rem;
+}
+
+input {
+    display: inline;
+    width: 50%;
+    border-radius: 0.3rem;
+}
+
+input + p {
+    display: inline;
+}
+
+.border {
+    border-width: 0.3rem !important;
+}
+
+img {
+    width: 2rem;
+}
