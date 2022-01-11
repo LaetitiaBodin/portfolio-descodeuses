@@ -31,7 +31,7 @@ const Card = ({folder, listname, name, series, num, index}) => {
         <div className="card_block">
             <p className="card_title">{name}</p>
             {folder === 'projets' &&
-                <img className="card_pic" src={`${process.env.PUBLIC_URL}assets/projets/annexes/projet_${num}/screen.jpg`}
+                <img className="card_pic" src={`${process.env.PUBLIC_URL}/assets/projets/annexes/projet_${num}/screen.jpg`}
                     alt={`Aperçu du projet numéro ${num}.`}/>}
             <div className="card_content">
                 <p className="card_series">{series}</p>
